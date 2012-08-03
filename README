@@ -1,0 +1,27 @@
+NAME
+    Lingua::SU::Nums2Words - Convert number to Sundanese verbage
+
+VERSION
+    version 0.01
+
+SYNOPSIS
+     use Lingua::SU::Nums2Words qw(nums2words nums2words_simple);
+     binmode(STDOUT, ":utf8");
+
+     print nums2words(123);        # sa-ratus dua puluh tilu
+     print nums2words_simple(123); # hiji dua tilu
+
+DESCRIPTION
+    This module provides two functions, nums2words and nums2words_simple, to
+    convert number to Sundanese verbage.
+
+SEE ALSO
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2012 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

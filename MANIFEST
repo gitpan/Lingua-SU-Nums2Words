@@ -1,0 +1,14 @@
+Build.PL
+Changes
+LICENSE
+MANIFEST
+MANIFEST.SKIP
+META.json
+META.yml
+README
+dist.ini
+lib/Lingua/SU/Nums2Words.pm
+t/00-compile.t
+t/basics.t
+t/release-pod-coverage.t
+t/release-pod-syntax.t
