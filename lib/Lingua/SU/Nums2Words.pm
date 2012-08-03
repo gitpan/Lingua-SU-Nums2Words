@@ -11,7 +11,7 @@ our @EXPORT_OK = qw(nums2words nums2words_simple);
 
 our %SPEC;
 
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 use vars qw(
     $Dec_char
@@ -227,15 +227,15 @@ Lingua::SU::Nums2Words - Convert number to Sundanese verbage
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
  use Lingua::SU::Nums2Words qw(nums2words nums2words_simple);
  binmode(STDOUT, ":utf8");
 
- print nums2words(123);        # sa-ratus dua puluh tilu
- print nums2words_simple(123); # hiji dua tilu
+ print nums2words(1023);       # sa-rébu dua puluh tilu
+ print nums2words_simple(109); # hiji kosong salapan
 
 =head1 DESCRIPTION
 
