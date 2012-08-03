@@ -2,7 +2,7 @@ NAME
     Lingua::SU::Nums2Words - Convert number to Sundanese verbage
 
 VERSION
-    version 0.02
+    version 0.03
 
 SYNOPSIS
      use Lingua::SU::Nums2Words qw(nums2words nums2words_simple);

@@ -11,7 +11,7 @@ our @EXPORT_OK = qw(nums2words nums2words_simple);
 
 our %SPEC;
 
-our $VERSION = '0.02'; # VERSION
+our $VERSION = '0.03'; # VERSION
 
 use vars qw(
     $Dec_char
@@ -221,13 +221,15 @@ sub _join_it(@) {
 __END__
 =pod
 
+=encoding utf-8
+
 =head1 NAME
 
 Lingua::SU::Nums2Words - Convert number to Sundanese verbage
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

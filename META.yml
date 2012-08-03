@@ -18,4 +18,4 @@ requires:
 resources:
   homepage: http://metacpan.org/dist/Lingua-SU-Nums2Words
   repository: http://github.com/sharyanto/perl-Lingua-SU-Nums2Words
-version: 0.02
+version: 0.03
